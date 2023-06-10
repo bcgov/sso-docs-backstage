@@ -26,3 +26,7 @@
   --aa-primary-color-rgb: 255, 255, 255 !important;
   --aa-muted-color-rgb: 255, 255, 255 !important;
 }
+
+.navbar__title {
+  font-size: 30px;
+}
