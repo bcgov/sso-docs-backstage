@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Pathfinder SSO",
+  title: "Documentation",
   tagline: "SSO Pathfinder Knowledge Base",
-
+  favicon: "img/favicon.ico",
   // Set the production url of your site here
   url: "https://bcgov.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -69,9 +69,18 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-
-      image: "img/docusaurus-social-card.jpg",
+      metadata: [
+        { name: "keywords", content: "pathfinder, sso, keycloak" },
+        {
+          name: "description",
+          content:
+            "We offer a simple way for application development teams to set up login functionality for their app from approved identity providers over a standard and secure protocol aka to help you obtain the technical details for your login component",
+        },
+        {
+          name: "og:image",
+          content: "https://bcgov.github.io/sso-docs/img/sso-single-signon.png",
+        },
+      ],
       docs: {
         sidebar: {
           hideable: true,
@@ -121,7 +130,7 @@ const config = {
         ],
       },
       footer: {
-        style: "dark",
+        style: "light",
         copyright: `Copyright © ${new Date().getFullYear()} SSO Docs. Built with Docusaurus.`,
       },
       prism: {
