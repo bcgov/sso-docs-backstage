@@ -3,19 +3,12 @@ sidebar_position: 1
 slug: /
 ---
 
-# Pathfinder SSO
+# Technical Pages for Pathfinder SSO
 
-- [MAKING A REQUEST](#making-a-request)
-- [START USING OIDC CLIENT CONFIGURATION](#start-using-your-OIDC-client-configuration)
+Thanks for visiting this site. We are currently focused on budling guides and release notes here. 
 
-![Group 1491](https://user-images.githubusercontent.com/87393930/134225781-e899275c-781e-4979-8884-03ebb4fc7f51.png)
-
----
-
-## Making a Request
-
-Use the [Common hosted Single Sign on
-(CSS) App](https://bcgov.github.io/sso-requests/). If you are looking for integration for IDIR login the process is completely self-serve and takes only minutes. You will need an IDIR to log in and you _should_ be a product owner, product admin, or team lead for a project. Once the automated provisioning is complete, your client details will be available securely through the web app (\*)
+Please visit the [Common hosted Single Sign on
+(CSS) App](https://bcgov.github.io/sso-requests/)if  you are looking for integration with a login component. The process is completely self-serve and takes only minutes. You will need an IDIR to log in and you _should_ be a product owner, product admin, or team lead for a project. Once the automated provisioning is complete, your client details will be available securely through the web app (\*)
 
 (\*) Note for BCeID Requests
 The Pathfinder SSO team will provision your DEV and TEST clients right away. You will be provided the client name and secret for each environment via a secure channel. The PROD client will be provisioned upon approval from the IDIM team.

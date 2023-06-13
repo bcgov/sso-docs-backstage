@@ -1,4 +1,4 @@
-# Developer Guide
+# Pathfinder SSO Developer Guide
 
 ## Setting up the local development environment
 
