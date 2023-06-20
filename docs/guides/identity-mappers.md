@@ -25,6 +25,21 @@ sidebar_position: 1
   | IDIR User GUID                        | idir_user_guid         | idir_user_guid      | idir_user_guid                                   | idir_user_guid                |
   | Keycloak Generated Preferred Username | idir_user_guid         | preferred_username  | preferred_username=`{{preferred_username}}@idir` | preferred_username            |
 
+### Azure IDIR
+
+- In Gold
+
+  | User Property/Attribute               | IDP - SAML Payload(\*) | Parent Realm Mapper  | Custom/Standard Realm Mapper                     | Standard Realm - OIDC Payload |
+  |---------------------------------------|------------------------|----------------------| ------------------------------------------------ | ----------------------------- |
+  | First Name                            | first_name             | given_name           | given_name                                       | given_name                    |
+  | Last Name                             | last_name              | family_name          | family_name                                      | family_name                   |
+  | Email                                 | email                  | email                | email                                            | email                         |
+  | Display Name                          | display_name           | display_name         | display_name                                     | display_name                  |
+  | IDIR Username                         | idir_username          | idir_username        | idir_username                                    | idir_username                 |
+  | IDIR User GUID                        | idir_user_guid         | idir_user_guid       | idir_user_guid                                   | idir_user_guid                |
+- | User Principal Name                   | user_principal_name    | user_principal_name  | user_principal_name                              | user_principal_name           |
+  | Keycloak Generated Preferred Username | idir_user_guid         | preferred_username   | preferred_username=`{{preferred_username}}@idir` | preferred_username            |
+
 ### Basic BCeID
 
 - In Gold
