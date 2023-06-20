@@ -27,7 +27,7 @@ sidebar_position: 1
 
 ### Azure IDIR
 
-- In Gold
+ In Gold
 
   | User Property/Attribute               | IDP - SAML Payload(\*) | Parent Realm Mapper  | Custom/Standard Realm Mapper                          | Standard Realm - OIDC Payload |
   |---------------------------------------|------------------------|----------------------|-------------------------------------------------------| ----------------------------- |
@@ -37,7 +37,7 @@ sidebar_position: 1
   | Display Name                          | display_name           | display_name         | display_name                                          | display_name                  |
   | IDIR Username                         | idir_username          | idir_username        | idir_username                                         | idir_username                 |
   | IDIR User GUID                        | idir_user_guid         | idir_user_guid       | idir_user_guid                                        | idir_user_guid                |
-- | User Principal Name                   | user_principal_name    | user_principal_name  | user_principal_name                                   | user_principal_name           |
+  | User Principal Name                   | user_principal_name    | user_principal_name  | user_principal_name                                   | user_principal_name           |
   | Keycloak Generated Preferred Username | idir_user_guid         | preferred_username   | preferred_username=`{{preferred_username}}@azureidir` | preferred_username            |
 
 ### Basic BCeID
