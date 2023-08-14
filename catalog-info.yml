@@ -1,0 +1,13 @@
+catalog-info.yml
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sso-docs-backstage"
+  description: "SSO Documentation"
+  annotations:
+    github.com/project-slug: bcgov/sso-docs-backstage
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "citz"
