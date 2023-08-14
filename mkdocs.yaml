@@ -1,4 +1,3 @@
-mkdocs.yaml
 site_name: "SSO Documentation"
 site_description: "BC Gov Custom SSO"
 repo_url: https://github.com/bcgov/sso-docs-backstage
