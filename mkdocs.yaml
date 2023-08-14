@@ -2,7 +2,6 @@ site_name: "SSO Documentation"
 site_description: "BC Gov Custom SSO"
 repo_url: https://github.com/bcgov/sso-docs-backstage
 edit_uri: edit/main/docs/
-docs_dir: ./
 
 plugins:
   - techdocs-core
